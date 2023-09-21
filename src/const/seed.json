@@ -1,0 +1,2522 @@
+[
+  {
+    "payment": [
+      {
+        "id": "483b5f69-0f45-4c1a-bdec-07cee7ea02eb",
+        "amount": 54707,
+        "payment_date": "2023-09-21T02:25:06.372Z",
+        "payment_method": "Credit Card",
+        "created_at": "2023-09-21T14:49:29.497Z",
+        "updated_at": "2023-09-21T00:06:53.278Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b031f5d3-b3f2-4912-b1d2-a288c7a3e440",
+        "amount": 74738,
+        "payment_date": "2023-09-21T05:50:57.810Z",
+        "payment_method": "PayPal",
+        "created_at": "2023-09-20T18:04:39.618Z",
+        "updated_at": "2023-09-20T19:38:57.867Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "02f3cf5d-667a-4dda-a306-278ee1964724",
+        "amount": 18592,
+        "payment_date": "2023-09-21T15:47:53.135Z",
+        "payment_method": "Bank Transfer",
+        "created_at": "2023-09-20T19:39:41.867Z",
+        "updated_at": "2023-09-21T05:32:09.643Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "56af95af-a475-400a-86a8-686fb22e8f74",
+        "amount": 2220,
+        "payment_date": "2023-09-21T05:55:12.895Z",
+        "payment_method": "Google Pay",
+        "created_at": "2023-09-20T17:07:24.478Z",
+        "updated_at": "2023-09-21T14:48:40.854Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7128f08a-1f97-4044-9468-e3b61108dc8e",
+        "amount": 94307,
+        "payment_date": "2023-09-21T16:14:59.499Z",
+        "payment_method": "Apple Pay",
+        "created_at": "2023-09-20T21:05:40.126Z",
+        "updated_at": "2023-09-21T04:46:15.409Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ngo": [
+      {
+        "id": "e0d9a699-f7c2-4d93-adcc-29da5d9698bc",
+        "name": "Charity A",
+        "description": "A non-profit organization dedicated to helping those in need",
+        "address": "123 Main Street",
+        "phone_number": "123-456-7890",
+        "email": "info@charitya.org",
+        "created_at": "2023-09-21T13:37:31.300Z",
+        "updated_at": "2023-09-20T18:02:12.864Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e5f2594a-2f9b-4d45-8699-54f39deb86b2",
+        "name": "Foundation B",
+        "description": "Working towards a better future for all",
+        "address": "456 Elm Avenue",
+        "phone_number": "987-654-3210",
+        "email": "foundationb@example.com",
+        "created_at": "2023-09-21T01:29:19.162Z",
+        "updated_at": "2023-09-21T09:13:03.071Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dca8f822-84bf-49d2-a828-759f02850fa7",
+        "name": "Helping Hands",
+        "description": "Providing support and resources to underprivileged communities",
+        "address": "789 Oak Drive",
+        "phone_number": "456-789-1230",
+        "email": "helpinghands@gmail.com",
+        "created_at": "2023-09-21T08:08:24.994Z",
+        "updated_at": "2023-09-21T04:40:52.115Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "994e893c-0dbd-4401-b76f-e94e4b1208db",
+        "name": "Supporting Hearts",
+        "description": "Making a positive impact through community projects",
+        "address": "321 Pine Lane",
+        "phone_number": "321-654-9870",
+        "email": "supportinghearts@yahoo.com",
+        "created_at": "2023-09-21T10:24:48.546Z",
+        "updated_at": "2023-09-21T04:49:59.164Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8b0adc59-7d86-4e3d-b8e6-4f0db12fa799",
+        "name": "Caring Souls",
+        "description": "Advocating for social justice and equality",
+        "address": "654 Maple Court",
+        "phone_number": "789-123-4560",
+        "email": "caringsouls@hotmail.com",
+        "created_at": "2023-09-21T02:02:52.711Z",
+        "updated_at": "2023-09-21T14:04:05.295Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "membership": [
+      {
+        "id": "eb205602-e6a7-42df-a322-a64afb7ed414",
+        "membership_type": "Basic",
+        "start_date": "2023-09-21T08:07:40.455Z",
+        "end_date": "2023-09-21T12:29:37.935Z",
+        "created_at": "2023-09-21T09:51:47.215Z",
+        "updated_at": "2023-09-21T00:45:58.641Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ce97caf9-7ceb-4c3e-94a9-9066e3839f11",
+        "membership_type": "Standard",
+        "start_date": "2023-09-20T23:40:30.892Z",
+        "end_date": "2023-09-21T05:00:21.927Z",
+        "created_at": "2023-09-20T18:29:29.569Z",
+        "updated_at": "2023-09-20T22:26:34.158Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c26b609d-2938-4202-b7fd-2ca46efbc0bb",
+        "membership_type": "Premium",
+        "start_date": "2023-09-21T12:19:40.634Z",
+        "end_date": "2023-09-21T13:50:14.134Z",
+        "created_at": "2023-09-21T02:27:06.216Z",
+        "updated_at": "2023-09-20T18:36:46.357Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d6c39d56-4fdb-4ed8-b3e6-ac9945b69a95",
+        "membership_type": "Gold",
+        "start_date": "2023-09-21T09:24:02.423Z",
+        "end_date": "2023-09-21T03:05:03.256Z",
+        "created_at": "2023-09-20T20:18:43.502Z",
+        "updated_at": "2023-09-21T11:43:30.817Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0c9ee83e-3863-4500-95f0-e3f8eb1b22be",
+        "membership_type": "Platinum",
+        "start_date": "2023-09-20T16:44:49.049Z",
+        "end_date": "2023-09-21T12:53:12.986Z",
+        "created_at": "2023-09-21T04:17:13.601Z",
+        "updated_at": "2023-09-21T03:29:49.208Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "finance": [
+      {
+        "id": "236f41be-d4b6-4699-a913-1b818013ed51",
+        "budget": 22779,
+        "expenses": 7304,
+        "income": 12338,
+        "balance": 78445,
+        "created_at": "2023-09-20T18:46:38.764Z",
+        "updated_at": "2023-09-21T01:25:10.254Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8763d518-c5cf-46e0-ab6a-5d53d0e2123e",
+        "budget": 50379,
+        "expenses": 44896,
+        "income": 92061,
+        "balance": 85171,
+        "created_at": "2023-09-21T04:59:31.831Z",
+        "updated_at": "2023-09-21T13:25:02.650Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b2a81554-6cdf-47bc-8c52-3befdae39ab2",
+        "budget": 59604,
+        "expenses": 45100,
+        "income": 22721,
+        "balance": 70160,
+        "created_at": "2023-09-21T11:54:39.822Z",
+        "updated_at": "2023-09-20T20:24:27.010Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f10f049e-d6f4-4de9-b2da-414822a9c6f0",
+        "budget": 662,
+        "expenses": 59524,
+        "income": 24567,
+        "balance": 74080,
+        "created_at": "2023-09-21T04:07:05.505Z",
+        "updated_at": "2023-09-21T12:48:26.267Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e0bceb4c-41e1-4601-af22-74ad27fcd07e",
+        "budget": 32296,
+        "expenses": 8403,
+        "income": 64555,
+        "balance": 87624,
+        "created_at": "2023-09-21T15:58:45.452Z",
+        "updated_at": "2023-09-21T00:12:22.323Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ff8e7082-39a3-490d-ad9c-47446c8a2583",
+        "email": "Brett_Nader78@roq.tech",
+        "firstName": "Alaina",
+        "lastName": "Frami",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46780652",
+        "tenantId": null
+      },
+      {
+        "reference": "595c41be-6301-422a-8ed8-556894efc272",
+        "email": "Kurtis11@roq.tech",
+        "firstName": "Jacinto",
+        "lastName": "Dooley",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33028164",
+        "tenantId": null
+      },
+      {
+        "reference": "952850ca-ed63-4216-8a58-b89c1a51b394",
+        "email": "Emie32@roq.tech",
+        "firstName": "Cary",
+        "lastName": "Frami",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18267170",
+        "tenantId": null
+      },
+      {
+        "reference": "6a7920e9-ca77-4a6b-b582-179fb8f35c9d",
+        "email": "Audreanne9@roq.tech",
+        "firstName": "Eulalia",
+        "lastName": "Breitenberg-Wehner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/959.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fd373f77-1e17-4cc1-9fd5-415089c77f57",
+        "email": "Jordi49@roq.tech",
+        "firstName": "Trycia",
+        "lastName": "O'Keefe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/735.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "payment": [
+      {
+        "id": "12fa7638-5bc8-4fc8-8f9e-d5ba7f4750c9",
+        "amount": 84776,
+        "payment_date": "2023-09-21T04:09:46.472Z",
+        "payment_method": "Credit Card",
+        "created_at": "2023-09-20T22:04:29.956Z",
+        "updated_at": "2023-09-20T18:37:35.631Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9dae6a92-f012-4765-af5a-175c2010ab91",
+        "amount": 13870,
+        "payment_date": "2023-09-21T05:00:17.594Z",
+        "payment_method": "PayPal",
+        "created_at": "2023-09-21T08:31:18.773Z",
+        "updated_at": "2023-09-20T18:05:58.764Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f3b6b241-1182-4461-a501-c573b7cc2e88",
+        "amount": 97787,
+        "payment_date": "2023-09-21T15:39:48.176Z",
+        "payment_method": "Bank Transfer",
+        "created_at": "2023-09-21T05:58:33.317Z",
+        "updated_at": "2023-09-21T06:26:56.891Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "52d1c7ee-a52f-47a8-ab7e-23fe66906455",
+        "amount": 35865,
+        "payment_date": "2023-09-20T22:30:34.799Z",
+        "payment_method": "Apple Pay",
+        "created_at": "2023-09-20T21:47:16.882Z",
+        "updated_at": "2023-09-20T17:14:29.823Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "42a45662-416d-4c33-be70-e5ff3c4830bc",
+        "amount": 84800,
+        "payment_date": "2023-09-21T06:32:27.162Z",
+        "payment_method": "Google Pay",
+        "created_at": "2023-09-20T17:01:16.892Z",
+        "updated_at": "2023-09-21T14:16:36.035Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ngo": [
+      {
+        "id": "082b2e22-6f8c-4581-bd82-d70d458db99d",
+        "name": "Charity Foundation",
+        "description": "A non-profit organization dedicated to helping the needy.",
+        "address": "123 Main Street",
+        "phone_number": "123-456-7890",
+        "email": "info@charityfoundation.org",
+        "created_at": "2023-09-21T09:58:10.882Z",
+        "updated_at": "2023-09-20T17:21:38.926Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "40920f9d-95c0-43ee-80b6-cb73eb6f56bb",
+        "name": "Hope for All",
+        "description": "Working towards a better future for all.",
+        "address": "456 Elm Avenue",
+        "phone_number": "987-654-3210",
+        "email": "contact@hopeforall.org",
+        "created_at": "2023-09-21T00:03:21.985Z",
+        "updated_at": "2023-09-21T07:49:55.451Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dab7ba0d-a7aa-46bb-8e6d-d5075a59797c",
+        "name": "Helping Hands",
+        "description": "Providing support and resources to those in need.",
+        "address": "789 Oak Drive",
+        "phone_number": "456-789-1230",
+        "email": "support@helpinghands.org",
+        "created_at": "2023-09-21T12:04:26.358Z",
+        "updated_at": "2023-09-21T06:31:30.727Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eb8444fa-74a1-4631-aaae-e6a96cb805b2",
+        "name": "Community Support",
+        "description": "Promoting social welfare and community development.",
+        "address": "321 Pine Lane",
+        "phone_number": "789-123-4560",
+        "email": "communitysupport@example.com",
+        "created_at": "2023-09-21T05:42:06.362Z",
+        "updated_at": "2023-09-21T07:11:06.100Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fbdeb1eb-31da-4f1b-88b4-bca5656cc05a",
+        "name": "Love and Care",
+        "description": "Making a positive impact in people's lives.",
+        "address": "654 Maple Road",
+        "phone_number": "321-654-9870",
+        "email": "loveandcare@gmail.com",
+        "created_at": "2023-09-21T05:25:53.566Z",
+        "updated_at": "2023-09-21T03:25:16.318Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "membership": [
+      {
+        "id": "345ab14d-84af-47d8-83eb-1e34004ad77a",
+        "membership_type": "Basic",
+        "start_date": "2023-09-21T05:11:25.954Z",
+        "end_date": "2023-09-21T01:09:14.804Z",
+        "created_at": "2023-09-20T18:06:00.681Z",
+        "updated_at": "2023-09-20T21:27:22.003Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "35eebd7d-eba1-470a-b12c-dd8958f9e345",
+        "membership_type": "Premium",
+        "start_date": "2023-09-21T08:10:14.751Z",
+        "end_date": "2023-09-21T00:35:56.628Z",
+        "created_at": "2023-09-21T03:24:06.377Z",
+        "updated_at": "2023-09-20T23:04:31.240Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d759cec1-6b57-4c05-8337-f69e53dccb2f",
+        "membership_type": "Gold",
+        "start_date": "2023-09-21T08:15:33.148Z",
+        "end_date": "2023-09-21T02:16:58.991Z",
+        "created_at": "2023-09-21T13:03:41.056Z",
+        "updated_at": "2023-09-21T10:29:22.975Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1e8f3172-836a-4956-a142-8dd21169506d",
+        "membership_type": "Silver",
+        "start_date": "2023-09-21T14:23:05.731Z",
+        "end_date": "2023-09-20T17:52:51.919Z",
+        "created_at": "2023-09-20T23:29:04.240Z",
+        "updated_at": "2023-09-21T04:13:32.029Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "73e6e540-0bc3-4f23-8fcb-9113f876008f",
+        "membership_type": "Platinum",
+        "start_date": "2023-09-21T00:13:09.008Z",
+        "end_date": "2023-09-21T11:09:29.881Z",
+        "created_at": "2023-09-21T14:34:07.582Z",
+        "updated_at": "2023-09-21T15:11:27.838Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "finance": [
+      {
+        "id": "4538bd5d-6424-46b6-beab-e07d70b0dc25",
+        "budget": 23064,
+        "expenses": 26530,
+        "income": 9435,
+        "balance": 1465,
+        "created_at": "2023-09-21T02:45:41.349Z",
+        "updated_at": "2023-09-21T13:43:06.658Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "47611317-bf4f-40f0-ad2e-da0cba6aa2cb",
+        "budget": 30403,
+        "expenses": 52905,
+        "income": 179,
+        "balance": 10054,
+        "created_at": "2023-09-20T19:15:38.190Z",
+        "updated_at": "2023-09-21T07:46:59.657Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "040fe178-1fd8-4cd3-9fe9-a5d22de67a62",
+        "budget": 10608,
+        "expenses": 34954,
+        "income": 82503,
+        "balance": 51719,
+        "created_at": "2023-09-21T05:01:13.806Z",
+        "updated_at": "2023-09-21T03:12:56.132Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "759a65bc-cdcd-4006-b804-364dd9ae00aa",
+        "budget": 57830,
+        "expenses": 69211,
+        "income": 85640,
+        "balance": 52403,
+        "created_at": "2023-09-21T09:46:01.701Z",
+        "updated_at": "2023-09-20T23:37:28.496Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3a3aae83-0997-4db8-8dcd-f597d51e771d",
+        "budget": 20392,
+        "expenses": 54644,
+        "income": 18567,
+        "balance": 6432,
+        "created_at": "2023-09-21T15:05:45.311Z",
+        "updated_at": "2023-09-20T19:42:53.515Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a02c65b8-9985-49f1-a829-281433ca1cbb",
+        "email": "Tate.Runolfsdottir@roq.tech",
+        "firstName": "Buster",
+        "lastName": "Wunsch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/393.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b4945368-c72a-4de9-a96f-7a17a26a2d35",
+        "email": "Malinda_Moen@roq.tech",
+        "firstName": "Bell",
+        "lastName": "Berge",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/434.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "38ae0c16-f59d-43f4-b575-8b156ce41bfb",
+        "email": "Shea_Strosin58@roq.tech",
+        "firstName": "Randy",
+        "lastName": "Walter",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60868085",
+        "tenantId": null
+      },
+      {
+        "reference": "1a7323c5-d2e1-4c50-a075-40cf51e058d7",
+        "email": "Armando49@roq.tech",
+        "firstName": "Drew",
+        "lastName": "Watsica",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/583.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "dcc67c5f-0a5b-4d89-b156-8ad5231f14b3",
+        "email": "Dee.Kuphal@roq.tech",
+        "firstName": "Suzanne",
+        "lastName": "Witting",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1033.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "payment": [
+      {
+        "id": "23d2dcf3-8c71-47f3-bd58-a8d43644c8ea",
+        "amount": 55199,
+        "payment_date": "2023-09-21T12:38:53.688Z",
+        "payment_method": "Credit Card",
+        "created_at": "2023-09-21T13:34:11.467Z",
+        "updated_at": "2023-09-21T09:56:43.132Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1e43c4c3-85ed-4581-b35a-9beacaf3fdfb",
+        "amount": 19042,
+        "payment_date": "2023-09-21T14:55:42.863Z",
+        "payment_method": "PayPal",
+        "created_at": "2023-09-20T19:46:09.770Z",
+        "updated_at": "2023-09-21T12:16:26.390Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "13cb0c1a-da18-493c-b962-a65035d126c7",
+        "amount": 61124,
+        "payment_date": "2023-09-20T18:43:23.139Z",
+        "payment_method": "Bank Transfer",
+        "created_at": "2023-09-20T21:44:53.464Z",
+        "updated_at": "2023-09-21T07:29:10.691Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2d81b9d7-857f-44c6-86f2-0746bb2f3fc6",
+        "amount": 51751,
+        "payment_date": "2023-09-21T06:21:38.442Z",
+        "payment_method": "Google Pay",
+        "created_at": "2023-09-21T02:22:08.097Z",
+        "updated_at": "2023-09-21T04:20:26.528Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bc90d13f-03f5-4734-ad07-e8ac251357d4",
+        "amount": 73179,
+        "payment_date": "2023-09-21T06:25:52.354Z",
+        "payment_method": "Apple Pay",
+        "created_at": "2023-09-21T15:08:31.678Z",
+        "updated_at": "2023-09-21T11:51:07.158Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ngo": [
+      {
+        "id": "f520a2c8-629c-4955-909e-8732cc7a1524",
+        "name": "Charity Foundation",
+        "description": "A non-profit organization dedicated to helping those in need.",
+        "address": "123 Main Street",
+        "phone_number": "123-456-7890",
+        "email": "info@charityfoundation.org",
+        "created_at": "2023-09-21T05:23:30.482Z",
+        "updated_at": "2023-09-20T23:51:29.916Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9ae5241e-d02a-44aa-a88b-cdf4ea7c4274",
+        "name": "Helping Hands",
+        "description": "Working towards a better future for all.",
+        "address": "456 Elm Avenue",
+        "phone_number": "987-654-3210",
+        "email": "contact@helpinghands.org",
+        "created_at": "2023-09-21T00:53:37.853Z",
+        "updated_at": "2023-09-21T16:21:44.990Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "77ca99a6-8dcb-4240-b03c-0ef79d8b38a5",
+        "name": "Hope for All",
+        "description": "Providing support and assistance to vulnerable communities.",
+        "address": "789 Oak Drive",
+        "phone_number": "555-123-4567",
+        "email": "support@hopeforall.org",
+        "created_at": "2023-09-21T07:14:22.135Z",
+        "updated_at": "2023-09-20T17:36:07.392Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4bceb44c-90b0-46e3-b265-b45bc17164fc",
+        "name": "Supportive Souls",
+        "description": "Promoting equality and social justice.",
+        "address": "321 Pine Lane",
+        "phone_number": "888-999-0000",
+        "email": "info@supportivesouls.org",
+        "created_at": "2023-09-21T05:50:00.120Z",
+        "updated_at": "2023-09-21T15:42:18.138Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "82cb5606-59e2-4298-90fe-2de04d2666cd",
+        "name": "Caring Hearts",
+        "description": "Making a positive impact in the world.",
+        "address": "654 Maple Road",
+        "phone_number": "444-555-6666",
+        "email": "hello@caringhearts.org",
+        "created_at": "2023-09-20T21:16:52.904Z",
+        "updated_at": "2023-09-21T04:58:44.653Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "membership": [
+      {
+        "id": "a3402ea0-a8b5-4c26-abf8-acd05e0dfa7b",
+        "membership_type": "Basic",
+        "start_date": "2023-09-21T03:54:08.745Z",
+        "end_date": "2023-09-21T15:48:20.593Z",
+        "created_at": "2023-09-21T14:50:02.329Z",
+        "updated_at": "2023-09-21T11:00:03.870Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3d3f428e-da6d-46a4-90f5-9f1db60c78f1",
+        "membership_type": "Silver",
+        "start_date": "2023-09-21T09:36:26.816Z",
+        "end_date": "2023-09-20T22:46:38.083Z",
+        "created_at": "2023-09-20T16:55:33.778Z",
+        "updated_at": "2023-09-21T07:09:09.311Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f52b4e10-c3e6-4edc-9df4-4ed2485b0d18",
+        "membership_type": "Gold",
+        "start_date": "2023-09-20T20:17:38.851Z",
+        "end_date": "2023-09-21T05:09:08.809Z",
+        "created_at": "2023-09-20T20:54:22.162Z",
+        "updated_at": "2023-09-20T16:57:23.474Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "90159b35-6b17-4c48-8ad5-0929e121c7e9",
+        "membership_type": "Platinum",
+        "start_date": "2023-09-21T00:37:41.612Z",
+        "end_date": "2023-09-21T06:08:15.032Z",
+        "created_at": "2023-09-21T08:01:54.710Z",
+        "updated_at": "2023-09-20T22:08:41.061Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "915a945c-fd64-4b14-b609-9d62ce346d0c",
+        "membership_type": "Diamond",
+        "start_date": "2023-09-21T07:02:44.719Z",
+        "end_date": "2023-09-21T01:04:15.767Z",
+        "created_at": "2023-09-21T13:21:25.148Z",
+        "updated_at": "2023-09-20T21:13:31.283Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "finance": [
+      {
+        "id": "1b0c942e-e327-4cfb-8749-c9638de7f28d",
+        "budget": 97023,
+        "expenses": 31395,
+        "income": 53061,
+        "balance": 19009,
+        "created_at": "2023-09-21T12:59:00.724Z",
+        "updated_at": "2023-09-21T13:16:10.326Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "87409cb6-3623-47c8-b3e0-c28bfd12c278",
+        "budget": 90707,
+        "expenses": 78746,
+        "income": 28112,
+        "balance": 62315,
+        "created_at": "2023-09-21T09:28:58.762Z",
+        "updated_at": "2023-09-21T15:23:50.776Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "035161f5-83ed-4c9d-b321-21b96aa478c5",
+        "budget": 48575,
+        "expenses": 47062,
+        "income": 2416,
+        "balance": 2011,
+        "created_at": "2023-09-20T19:22:08.958Z",
+        "updated_at": "2023-09-21T00:03:26.252Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "56a8ddd9-e748-4edd-afa6-8d90403884ac",
+        "budget": 68424,
+        "expenses": 44263,
+        "income": 31053,
+        "balance": 80084,
+        "created_at": "2023-09-21T10:56:22.612Z",
+        "updated_at": "2023-09-21T02:36:58.017Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3483a95e-75f3-4d73-b136-99554f9d9486",
+        "budget": 24546,
+        "expenses": 4800,
+        "income": 54786,
+        "balance": 55527,
+        "created_at": "2023-09-21T15:58:23.943Z",
+        "updated_at": "2023-09-21T01:43:31.840Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "89ecb005-cefd-401b-a03a-3a9e5c1b3f56",
+        "email": "Miles.Hamill95@roq.tech",
+        "firstName": "Talia",
+        "lastName": "Lakin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5731274",
+        "tenantId": null
+      },
+      {
+        "reference": "f1e1f467-27e1-4432-ae37-6acab220cb3f",
+        "email": "Alexys_Frami@roq.tech",
+        "firstName": "Queenie",
+        "lastName": "Grant",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/859.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c61c41dd-1c7c-440e-a98f-4dfbc1de8ad5",
+        "email": "Brionna_Dickens@roq.tech",
+        "firstName": "Emelia",
+        "lastName": "Johnson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/29.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "87ae5d8a-a431-4c94-86cc-d2c8a79f564c",
+        "email": "Claud.Spencer@roq.tech",
+        "firstName": "Donavon",
+        "lastName": "Beatty",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1004.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fdfd16d2-f9a3-4f18-a1c3-ae801aec5de8",
+        "email": "Delores7@roq.tech",
+        "firstName": "Bryana",
+        "lastName": "Larkin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/429.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "payment": [
+      {
+        "id": "0f513f90-361d-433e-ab22-b3dd27e40839",
+        "amount": 1891,
+        "payment_date": "2023-09-21T04:44:48.218Z",
+        "payment_method": "Credit Card",
+        "created_at": "2023-09-21T16:18:32.720Z",
+        "updated_at": "2023-09-21T06:02:23.187Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4db1bdd9-5f24-44c1-848e-7ca0b21ec027",
+        "amount": 44741,
+        "payment_date": "2023-09-21T13:45:36.844Z",
+        "payment_method": "PayPal",
+        "created_at": "2023-09-20T22:20:02.708Z",
+        "updated_at": "2023-09-20T17:28:02.646Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3b610f1b-b9e8-4493-b1c9-c56ee6cc9fde",
+        "amount": 75333,
+        "payment_date": "2023-09-20T18:30:28.035Z",
+        "payment_method": "Apple Pay",
+        "created_at": "2023-09-21T12:41:23.722Z",
+        "updated_at": "2023-09-21T08:28:32.572Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "500f4661-2b4d-423b-bca0-878b37134eca",
+        "amount": 65925,
+        "payment_date": "2023-09-21T01:07:38.421Z",
+        "payment_method": "Google Pay",
+        "created_at": "2023-09-20T23:16:16.423Z",
+        "updated_at": "2023-09-20T17:20:56.540Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a170abf1-ebe5-4312-aa02-85e91ce8dab3",
+        "amount": 36296,
+        "payment_date": "2023-09-21T08:28:12.355Z",
+        "payment_method": "Bank Transfer",
+        "created_at": "2023-09-21T12:30:46.495Z",
+        "updated_at": "2023-09-21T10:30:01.791Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ngo": [
+      {
+        "id": "8832cf78-e686-42ac-a3a8-76a38f03ee02",
+        "name": "Charity A",
+        "description": "Supporting children in need",
+        "address": "123 Main St",
+        "phone_number": "123-456-7890",
+        "email": "info@charitya.org",
+        "created_at": "2023-09-21T09:48:35.213Z",
+        "updated_at": "2023-09-20T22:43:17.688Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "db1193e0-068e-4c00-83e4-61e8e14de282",
+        "name": "Foundation B",
+        "description": "Promoting environmental sustainability",
+        "address": "456 Elm St",
+        "phone_number": "987-654-3210",
+        "email": "contact@foundationb.org",
+        "created_at": "2023-09-20T23:57:03.381Z",
+        "updated_at": "2023-09-20T21:18:55.847Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1e759622-561c-41f2-992f-28b711d61526",
+        "name": "Organization C",
+        "description": "Providing healthcare services",
+        "address": "789 Oak St",
+        "phone_number": "555-123-4567",
+        "email": "ngo@example.com",
+        "created_at": "2023-09-21T03:51:28.515Z",
+        "updated_at": "2023-09-20T20:45:12.028Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b600a2f9-f547-412e-aed8-0fc67d8b213a",
+        "name": "Nonprofit D",
+        "description": "Empowering women",
+        "address": "321 Pine St",
+        "phone_number": "888-999-0000",
+        "email": "support@nonprofitd.org",
+        "created_at": "2023-09-21T10:02:29.436Z",
+        "updated_at": "2023-09-21T00:28:57.218Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5879c4f2-3f43-4459-8dfb-00d7c51ddd80",
+        "name": "Association E",
+        "description": "Fighting against poverty",
+        "address": "654 Maple St",
+        "phone_number": "444-555-6666",
+        "email": "info@associatione.org",
+        "created_at": "2023-09-21T12:32:25.225Z",
+        "updated_at": "2023-09-20T20:46:28.879Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "membership": [
+      {
+        "id": "89bbcaa4-54be-40c3-98f6-43f36c4949f3",
+        "membership_type": "Basic",
+        "start_date": "2023-09-21T04:54:44.835Z",
+        "end_date": "2023-09-21T03:59:52.603Z",
+        "created_at": "2023-09-21T09:38:41.947Z",
+        "updated_at": "2023-09-20T17:27:04.404Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "49c80e97-4c06-4541-a1e5-e77c61eb1326",
+        "membership_type": "Premium",
+        "start_date": "2023-09-21T06:17:09.708Z",
+        "end_date": "2023-09-21T15:05:02.870Z",
+        "created_at": "2023-09-21T04:07:42.164Z",
+        "updated_at": "2023-09-20T20:06:06.417Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8e92bd4e-4480-410c-9270-25fbff57b20d",
+        "membership_type": "Gold",
+        "start_date": "2023-09-21T10:41:04.860Z",
+        "end_date": "2023-09-21T00:52:43.270Z",
+        "created_at": "2023-09-21T11:33:23.919Z",
+        "updated_at": "2023-09-21T10:50:37.654Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "42b2088f-1178-4cd1-8639-c708949a5f21",
+        "membership_type": "Platinum",
+        "start_date": "2023-09-20T20:08:43.044Z",
+        "end_date": "2023-09-21T12:29:05.475Z",
+        "created_at": "2023-09-21T01:59:13.207Z",
+        "updated_at": "2023-09-21T00:00:14.445Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9fd7e603-396c-42ed-9c9f-9cd75d1d4dee",
+        "membership_type": "VIP",
+        "start_date": "2023-09-20T21:16:56.477Z",
+        "end_date": "2023-09-20T16:45:29.861Z",
+        "created_at": "2023-09-21T06:36:33.312Z",
+        "updated_at": "2023-09-20T23:02:38.516Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "finance": [
+      {
+        "id": "62605b56-7e20-4d57-8612-0e42dfa945eb",
+        "budget": 55686,
+        "expenses": 82074,
+        "income": 73856,
+        "balance": 67351,
+        "created_at": "2023-09-20T18:06:30.368Z",
+        "updated_at": "2023-09-21T03:03:08.126Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ab456dc4-28b7-4e59-a8d9-2ea9ac667250",
+        "budget": 36172,
+        "expenses": 21090,
+        "income": 96168,
+        "balance": 22662,
+        "created_at": "2023-09-21T14:56:07.102Z",
+        "updated_at": "2023-09-21T02:53:56.172Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5444a0c4-fe31-49fb-a87b-9bde4321eade",
+        "budget": 58493,
+        "expenses": 48704,
+        "income": 81702,
+        "balance": 69955,
+        "created_at": "2023-09-20T16:49:24.302Z",
+        "updated_at": "2023-09-21T07:41:49.758Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d71c2b93-125d-4576-8d89-20f8c10131b5",
+        "budget": 15626,
+        "expenses": 47265,
+        "income": 1046,
+        "balance": 13185,
+        "created_at": "2023-09-21T01:34:13.256Z",
+        "updated_at": "2023-09-21T04:53:16.494Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7ac40b81-5b6b-4f45-ae03-ed39a5dad69f",
+        "budget": 84143,
+        "expenses": 3884,
+        "income": 99525,
+        "balance": 32864,
+        "created_at": "2023-09-21T10:30:28.465Z",
+        "updated_at": "2023-09-21T01:51:28.084Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "376e3f95-9592-4a05-9393-ca24b14795c1",
+        "email": "Elinor26@roq.tech",
+        "firstName": "Josephine",
+        "lastName": "O'Reilly",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46484158",
+        "tenantId": null
+      },
+      {
+        "reference": "fab5f010-0842-4d6a-9231-a9f4bfa7f012",
+        "email": "Davion.Lesch53@roq.tech",
+        "firstName": "Marina",
+        "lastName": "Breitenberg",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/123.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1163a361-3581-44be-8910-c64e0be743ca",
+        "email": "Deven25@roq.tech",
+        "firstName": "Malvina",
+        "lastName": "Pouros",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/303.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2c59befa-d5cc-4bbd-bf3f-bbbc063279f4",
+        "email": "Verona48@roq.tech",
+        "firstName": "Juana",
+        "lastName": "Schinner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/93.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "207173bc-e223-4c5c-b396-9b6a5d260340",
+        "email": "Micah90@roq.tech",
+        "firstName": "Karl",
+        "lastName": "Koelpin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11213641",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "payment": [
+      {
+        "id": "beaf154c-8654-4548-8279-e8400ba13e33",
+        "amount": 1153,
+        "payment_date": "2023-09-21T12:11:15.751Z",
+        "payment_method": "Credit Card",
+        "created_at": "2023-09-21T15:39:04.258Z",
+        "updated_at": "2023-09-20T22:56:26.881Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3beae0ac-dfc3-4b7d-a11f-6c3cb14c54dc",
+        "amount": 38893,
+        "payment_date": "2023-09-21T10:26:39.148Z",
+        "payment_method": "PayPal",
+        "created_at": "2023-09-21T03:29:26.974Z",
+        "updated_at": "2023-09-20T17:56:05.888Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e6397168-1584-42e3-abb0-01dec7030544",
+        "amount": 13797,
+        "payment_date": "2023-09-21T01:25:30.227Z",
+        "payment_method": "Bank Transfer",
+        "created_at": "2023-09-21T04:37:50.633Z",
+        "updated_at": "2023-09-21T13:56:32.702Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f7824fb4-e786-4149-992c-38e5d430ec5b",
+        "amount": 4140,
+        "payment_date": "2023-09-21T05:48:10.690Z",
+        "payment_method": "Google Pay",
+        "created_at": "2023-09-21T16:12:27.994Z",
+        "updated_at": "2023-09-21T11:06:26.521Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8254fc33-b15f-4573-9bfb-3aff0930e535",
+        "amount": 34719,
+        "payment_date": "2023-09-21T01:15:54.229Z",
+        "payment_method": "Apple Pay",
+        "created_at": "2023-09-21T00:34:04.286Z",
+        "updated_at": "2023-09-21T10:56:08.213Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ngo": [
+      {
+        "id": "110809fb-f065-4eee-bcb0-6ade1b7b09a4",
+        "name": "Save the Earth",
+        "description": "Non-profit organization dedicated to environmental conservation",
+        "address": "123 Main Street",
+        "phone_number": "123-456-7890",
+        "email": "info@saveearth.org",
+        "created_at": "2023-09-21T11:37:16.236Z",
+        "updated_at": "2023-09-21T03:12:20.812Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4b088831-cb32-4a09-ad1e-b98cb3ea3aa8",
+        "name": "Helping Hands",
+        "description": "Supporting communities in need through various projects",
+        "address": "456 Elm Avenue",
+        "phone_number": "987-654-3210",
+        "email": "contact@helpinghands.org",
+        "created_at": "2023-09-20T22:42:34.372Z",
+        "updated_at": "2023-09-21T12:02:52.372Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "92b877dd-997f-495a-9254-e8e9721e8ca2",
+        "name": "Caring Hearts",
+        "description": "Providing assistance to vulnerable individuals and families",
+        "address": "789 Oak Lane",
+        "phone_number": "456-789-1230",
+        "email": "support@caringhearts.org",
+        "created_at": "2023-09-21T00:06:09.831Z",
+        "updated_at": "2023-09-21T08:48:11.904Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bc1b30a6-662e-4360-b3bc-57639e6a5d4b",
+        "name": "Hope for All",
+        "description": "Promoting education and healthcare initiatives",
+        "address": "321 Pine Road",
+        "phone_number": "321-654-9870",
+        "email": "info@hopeforall.org",
+        "created_at": "2023-09-21T15:41:29.300Z",
+        "updated_at": "2023-09-21T07:03:51.626Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7a511a30-9269-458c-aed7-759a9fca172b",
+        "name": "Giving Back",
+        "description": "Working towards a better future for all",
+        "address": "654 Maple Court",
+        "phone_number": "789-123-4560",
+        "email": "contact@givingback.org",
+        "created_at": "2023-09-21T03:10:57.959Z",
+        "updated_at": "2023-09-21T13:59:47.506Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "membership": [
+      {
+        "id": "221cb1a0-4492-487b-ab06-4320d06852c0",
+        "membership_type": "Basic",
+        "start_date": "2023-09-21T07:59:37.933Z",
+        "end_date": "2023-09-21T13:29:54.478Z",
+        "created_at": "2023-09-21T09:52:34.507Z",
+        "updated_at": "2023-09-21T10:40:04.224Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ff15a632-bafe-45a1-9953-7f4106d462bb",
+        "membership_type": "Premium",
+        "start_date": "2023-09-21T02:54:22.546Z",
+        "end_date": "2023-09-20T16:34:52.450Z",
+        "created_at": "2023-09-21T13:08:50.389Z",
+        "updated_at": "2023-09-21T16:04:58.945Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3b4766e4-c070-4a7b-b078-5d0cf1606122",
+        "membership_type": "Gold",
+        "start_date": "2023-09-21T07:59:12.018Z",
+        "end_date": "2023-09-21T03:04:36.866Z",
+        "created_at": "2023-09-21T00:09:53.476Z",
+        "updated_at": "2023-09-21T03:10:17.727Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "afc49857-4f8a-4a44-bdba-fe0e8d4897bc",
+        "membership_type": "Platinum",
+        "start_date": "2023-09-21T14:28:13.067Z",
+        "end_date": "2023-09-21T03:42:39.747Z",
+        "created_at": "2023-09-21T15:33:27.836Z",
+        "updated_at": "2023-09-21T11:20:19.965Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8df2b8d2-f7e9-4fbb-8493-045d114c69af",
+        "membership_type": "VIP",
+        "start_date": "2023-09-21T06:33:42.612Z",
+        "end_date": "2023-09-21T00:21:07.843Z",
+        "created_at": "2023-09-21T07:24:21.983Z",
+        "updated_at": "2023-09-21T12:26:02.818Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "finance": [
+      {
+        "id": "21365412-6839-4cf8-ad69-5425351083a4",
+        "budget": 65412,
+        "expenses": 77615,
+        "income": 29169,
+        "balance": 86601,
+        "created_at": "2023-09-21T11:36:00.820Z",
+        "updated_at": "2023-09-21T04:17:20.028Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "979495bd-d35d-4716-a3f9-585b45fdf1ca",
+        "budget": 13727,
+        "expenses": 76792,
+        "income": 65385,
+        "balance": 3761,
+        "created_at": "2023-09-20T17:52:53.316Z",
+        "updated_at": "2023-09-20T20:33:35.898Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8ac34d50-f926-48b0-9a31-5275291bfe2c",
+        "budget": 92810,
+        "expenses": 80455,
+        "income": 67309,
+        "balance": 53234,
+        "created_at": "2023-09-20T21:25:35.616Z",
+        "updated_at": "2023-09-21T07:51:49.350Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3f2057e2-307d-46a6-ad7c-88d1219d8e34",
+        "budget": 7579,
+        "expenses": 82986,
+        "income": 13677,
+        "balance": 95700,
+        "created_at": "2023-09-21T08:53:21.468Z",
+        "updated_at": "2023-09-21T12:12:13.076Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "238c10d1-5453-4309-bb4f-13512b482881",
+        "budget": 98176,
+        "expenses": 61655,
+        "income": 35021,
+        "balance": 36194,
+        "created_at": "2023-09-20T22:49:57.229Z",
+        "updated_at": "2023-09-20T20:19:32.830Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d53a6ff7-01c7-47d3-a5bc-c9c9cd81af43",
+        "email": "Leonora39@roq.tech",
+        "firstName": "Ahmed",
+        "lastName": "Lakin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69879041",
+        "tenantId": null
+      },
+      {
+        "reference": "7c8cb25e-6fe7-438c-97ae-bbc612414f7a",
+        "email": "Samson_Dach@roq.tech",
+        "firstName": "Marie",
+        "lastName": "Abshire",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/352.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8f159db9-a8c2-4153-b161-d46a7f62899b",
+        "email": "Verdie0@roq.tech",
+        "firstName": "Ludwig",
+        "lastName": "Thiel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28983135",
+        "tenantId": null
+      },
+      {
+        "reference": "fc8f44c2-2423-42e3-9d5e-f14095d78655",
+        "email": "Khalil54@roq.tech",
+        "firstName": "Murray",
+        "lastName": "Crooks",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1033.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e641c4c9-3ab3-444a-8a92-da7b632864fa",
+        "email": "Hardy18@roq.tech",
+        "firstName": "Alvera",
+        "lastName": "Powlowski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23167317",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "payment": [
+      {
+        "id": "05446940-3ba3-4421-bfdb-4ef25ad4f7d7",
+        "amount": 1694,
+        "payment_date": "2023-09-21T06:25:16.285Z",
+        "payment_method": "Credit Card",
+        "created_at": "2023-09-21T01:41:13.524Z",
+        "updated_at": "2023-09-21T13:33:57.762Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dd613cda-26b9-40d0-a2d7-cb2f3f07f481",
+        "amount": 76775,
+        "payment_date": "2023-09-21T11:51:37.383Z",
+        "payment_method": "PayPal",
+        "created_at": "2023-09-21T02:27:11.934Z",
+        "updated_at": "2023-09-21T00:53:34.046Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "634a8ecc-b4cb-402a-af6f-4543f9335a67",
+        "amount": 65374,
+        "payment_date": "2023-09-21T11:54:51.708Z",
+        "payment_method": "Bank Transfer",
+        "created_at": "2023-09-21T05:27:22.809Z",
+        "updated_at": "2023-09-21T09:48:56.787Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9b746d2e-b87d-45d0-a384-ee43488c9f55",
+        "amount": 40590,
+        "payment_date": "2023-09-21T16:11:06.195Z",
+        "payment_method": "Apple Pay",
+        "created_at": "2023-09-21T02:09:52.567Z",
+        "updated_at": "2023-09-20T21:31:43.156Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4f8635c3-5f01-43bc-87c0-cefede937775",
+        "amount": 22912,
+        "payment_date": "2023-09-21T13:33:23.286Z",
+        "payment_method": "Google Pay",
+        "created_at": "2023-09-21T04:42:43.112Z",
+        "updated_at": "2023-09-21T13:42:30.540Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ngo": [
+      {
+        "id": "f0bced90-063f-42b5-9fa0-a9985f394be1",
+        "name": "Red Cross",
+        "description": "Humanitarian organization",
+        "address": "123 Main Street",
+        "phone_number": "123-456-7890",
+        "email": "contact@redcross.org",
+        "created_at": "2023-09-20T19:37:12.650Z",
+        "updated_at": "2023-09-20T23:51:48.647Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d89f1b06-13a1-42e6-b265-8c0c665dd881",
+        "name": "Save the Children",
+        "description": "International non-profit",
+        "address": "456 Elm Avenue",
+        "phone_number": "987-654-3210",
+        "email": "info@savethechildren.org",
+        "created_at": "2023-09-21T12:12:08.693Z",
+        "updated_at": "2023-09-20T19:19:46.066Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7d8106e3-32c1-4d30-997d-7c53749d25ed",
+        "name": "World Wildlife Fund",
+        "description": "Conservation organization",
+        "address": "789 Oak Lane",
+        "phone_number": "456-789-1230",
+        "email": "support@wwf.org",
+        "created_at": "2023-09-21T07:44:52.226Z",
+        "updated_at": "2023-09-20T22:42:58.725Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "13749528-848c-489b-b410-2ce8d9e5dbbf",
+        "name": "Doctors Without Borders",
+        "description": "Medical aid organization",
+        "address": "321 Pine Road",
+        "phone_number": "321-654-9870",
+        "email": "info@doctorswithoutborders.org",
+        "created_at": "2023-09-20T17:46:03.812Z",
+        "updated_at": "2023-09-21T11:35:11.573Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4f5cc537-82f5-4b13-924f-0a6b23ee6cc1",
+        "name": "Oxfam",
+        "description": "Global poverty relief",
+        "address": "654 Maple Drive",
+        "phone_number": "789-123-4560",
+        "email": "donate@oxfam.org",
+        "created_at": "2023-09-21T01:03:14.524Z",
+        "updated_at": "2023-09-21T09:36:12.838Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "membership": [
+      {
+        "id": "ea8f73c2-1344-464d-99fa-a7ad98a834d3",
+        "membership_type": "Basic",
+        "start_date": "2023-09-20T18:37:25.353Z",
+        "end_date": "2023-09-21T12:41:11.973Z",
+        "created_at": "2023-09-21T02:03:51.457Z",
+        "updated_at": "2023-09-20T21:12:19.918Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e3120008-4413-4323-97fc-8077fb92db8d",
+        "membership_type": "Premium",
+        "start_date": "2023-09-21T02:04:08.055Z",
+        "end_date": "2023-09-21T14:11:11.611Z",
+        "created_at": "2023-09-21T14:36:29.732Z",
+        "updated_at": "2023-09-20T22:50:53.865Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "28097a2d-de3b-4e79-9f2a-ce98865d5fac",
+        "membership_type": "Gold",
+        "start_date": "2023-09-21T04:25:25.916Z",
+        "end_date": "2023-09-21T14:52:48.254Z",
+        "created_at": "2023-09-21T06:32:14.938Z",
+        "updated_at": "2023-09-20T21:13:17.024Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "05292618-fbcd-410c-b829-3734e7288974",
+        "membership_type": "Silver",
+        "start_date": "2023-09-21T14:47:13.716Z",
+        "end_date": "2023-09-20T19:18:02.925Z",
+        "created_at": "2023-09-21T12:42:40.805Z",
+        "updated_at": "2023-09-20T22:09:34.335Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0493cedf-830b-41e7-8377-fbdb20416b81",
+        "membership_type": "Platinum",
+        "start_date": "2023-09-21T08:56:58.961Z",
+        "end_date": "2023-09-20T17:16:12.890Z",
+        "created_at": "2023-09-20T23:36:23.219Z",
+        "updated_at": "2023-09-20T19:15:21.882Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "finance": [
+      {
+        "id": "4d9699fd-9d41-4dd1-a932-049d7492597c",
+        "budget": 65885,
+        "expenses": 82058,
+        "income": 87990,
+        "balance": 52108,
+        "created_at": "2023-09-21T14:45:41.139Z",
+        "updated_at": "2023-09-20T18:01:50.118Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c31168af-be43-49a1-8cdd-6ae6aa4ef5d5",
+        "budget": 67256,
+        "expenses": 34499,
+        "income": 80208,
+        "balance": 48926,
+        "created_at": "2023-09-20T23:53:13.468Z",
+        "updated_at": "2023-09-20T16:59:29.228Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "502dbac3-7ea8-4aae-bf20-0c4e2ece9955",
+        "budget": 37459,
+        "expenses": 60268,
+        "income": 42459,
+        "balance": 29948,
+        "created_at": "2023-09-20T20:31:40.434Z",
+        "updated_at": "2023-09-21T15:10:34.110Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a344c85f-0de4-4ed1-987a-ffed4930ebb2",
+        "budget": 59528,
+        "expenses": 8663,
+        "income": 18780,
+        "balance": 74083,
+        "created_at": "2023-09-21T00:02:38.317Z",
+        "updated_at": "2023-09-21T07:33:59.964Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5d754f84-3185-40b7-8267-bc4b243bec88",
+        "budget": 26535,
+        "expenses": 96458,
+        "income": 41028,
+        "balance": 50485,
+        "created_at": "2023-09-21T03:40:18.649Z",
+        "updated_at": "2023-09-21T11:52:00.800Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "899f3e1b-67e2-4ba1-afe7-8bdbcac51903",
+        "email": "Waino.Reichert57@roq.tech",
+        "firstName": "Damion",
+        "lastName": "Kovacek",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1180.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cbe1ec26-2592-4b79-8cf8-a87f7b9a9ca7",
+        "email": "Jarrod_Botsford@roq.tech",
+        "firstName": "Markus",
+        "lastName": "Abshire",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46195581",
+        "tenantId": null
+      },
+      {
+        "reference": "52802036-af79-4b30-b630-923c4b8952a7",
+        "email": "Tremaine.Gottlieb57@roq.tech",
+        "firstName": "Etha",
+        "lastName": "Cormier",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11118106",
+        "tenantId": null
+      },
+      {
+        "reference": "06b184d1-baf8-49ee-a3e2-62e125ca29bb",
+        "email": "Tevin_Greenfelder@roq.tech",
+        "firstName": "Milan",
+        "lastName": "Fisher",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90287988",
+        "tenantId": null
+      },
+      {
+        "reference": "fd3fd5b7-af3f-4864-83d8-d600e32e47a1",
+        "email": "Marlene.Weimann60@roq.tech",
+        "firstName": "Alexandro",
+        "lastName": "Feest",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42749828",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "payment": [
+      {
+        "id": "5da34d55-f615-47ed-8ed4-d56beb180b1f",
+        "amount": 97916,
+        "payment_date": "2023-09-21T12:37:55.861Z",
+        "payment_method": "Credit Card",
+        "created_at": "2023-09-20T22:26:20.598Z",
+        "updated_at": "2023-09-21T08:02:30.777Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7f3474ed-c991-4635-9dc6-0f5986ec9da8",
+        "amount": 34756,
+        "payment_date": "2023-09-20T19:14:30.049Z",
+        "payment_method": "PayPal",
+        "created_at": "2023-09-21T00:02:01.134Z",
+        "updated_at": "2023-09-21T12:14:30.122Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5fcfa929-9d14-484c-b11b-46876aadb600",
+        "amount": 98899,
+        "payment_date": "2023-09-21T02:58:51.874Z",
+        "payment_method": "Bank Transfer",
+        "created_at": "2023-09-21T01:52:43.720Z",
+        "updated_at": "2023-09-21T15:57:38.274Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "02e81823-4381-4c80-a722-135774bda823",
+        "amount": 31288,
+        "payment_date": "2023-09-21T08:41:58.311Z",
+        "payment_method": "Apple Pay",
+        "created_at": "2023-09-21T00:01:10.606Z",
+        "updated_at": "2023-09-21T06:40:29.811Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7c7c834c-8444-4573-8609-bb73afb11e54",
+        "amount": 33482,
+        "payment_date": "2023-09-21T16:08:56.209Z",
+        "payment_method": "Google Pay",
+        "created_at": "2023-09-21T15:45:39.240Z",
+        "updated_at": "2023-09-21T11:00:28.723Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ngo": [
+      {
+        "id": "239e14a9-5441-410a-aaa8-fdc268af9664",
+        "name": "Save the Planet",
+        "description": "A non-profit organization dedicated to environmental conservation.",
+        "address": "123 Main Street",
+        "phone_number": "123-456-7890",
+        "email": "info@saveplanet.org",
+        "created_at": "2023-09-20T22:34:55.243Z",
+        "updated_at": "2023-09-21T14:47:13.520Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1529e363-8e3f-4b9c-89d7-f9cc301cc7f6",
+        "name": "Helping Hands",
+        "description": "Providing support and resources to those in need.",
+        "address": "456 Elm Avenue",
+        "phone_number": "987-654-3210",
+        "email": "contact@helpinghands.org",
+        "created_at": "2023-09-20T16:53:56.802Z",
+        "updated_at": "2023-09-20T17:31:45.500Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e6c2a4b9-0fcb-422f-b1fd-ecdd6dba1310",
+        "name": "Community Builders",
+        "description": "Building stronger communities through collaboration.",
+        "address": "789 Oak Lane",
+        "phone_number": "456-789-0123",
+        "email": "info@communitybuilders.org",
+        "created_at": "2023-09-21T06:19:12.865Z",
+        "updated_at": "2023-09-20T16:35:24.212Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c48ec443-9481-494b-a893-90eee2243033",
+        "name": "Hope for All",
+        "description": "Working towards a better future for all.",
+        "address": "321 Pine Road",
+        "phone_number": "321-654-0987",
+        "email": "support@hopeforall.org",
+        "created_at": "2023-09-20T18:21:03.303Z",
+        "updated_at": "2023-09-20T16:40:11.545Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f56ea28b-f031-4c81-82ca-904620198b0c",
+        "name": "Action for Change",
+        "description": "Taking action to create positive change.",
+        "address": "654 Maple Drive",
+        "phone_number": "789-012-3456",
+        "email": "info@actionforchange.org",
+        "created_at": "2023-09-21T02:49:55.243Z",
+        "updated_at": "2023-09-21T04:12:36.297Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "membership": [
+      {
+        "id": "db1f6471-92ae-4ee4-8a7c-c46187a3d3c9",
+        "membership_type": "Basic",
+        "start_date": "2023-09-20T18:45:02.342Z",
+        "end_date": "2023-09-21T13:52:33.547Z",
+        "created_at": "2023-09-20T21:46:21.526Z",
+        "updated_at": "2023-09-21T10:16:55.839Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4b2d6122-058e-48fc-a591-760ca0850015",
+        "membership_type": "Standard",
+        "start_date": "2023-09-21T02:18:04.213Z",
+        "end_date": "2023-09-20T18:14:00.952Z",
+        "created_at": "2023-09-21T10:13:35.001Z",
+        "updated_at": "2023-09-21T00:01:55.492Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9b699923-6c26-470d-822e-5d8a23732206",
+        "membership_type": "Premium",
+        "start_date": "2023-09-21T03:51:30.676Z",
+        "end_date": "2023-09-21T13:12:12.438Z",
+        "created_at": "2023-09-20T18:53:24.498Z",
+        "updated_at": "2023-09-20T23:00:14.747Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "32c528fa-91ee-40aa-aa4c-78ffd99d7d72",
+        "membership_type": "VIP",
+        "start_date": "2023-09-20T23:44:56.301Z",
+        "end_date": "2023-09-20T20:09:08.230Z",
+        "created_at": "2023-09-21T06:33:38.799Z",
+        "updated_at": "2023-09-21T02:10:51.231Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6c6dcbb0-099f-4438-b02e-094741cdf851",
+        "membership_type": "Exclusive",
+        "start_date": "2023-09-21T14:56:30.915Z",
+        "end_date": "2023-09-21T03:33:58.906Z",
+        "created_at": "2023-09-21T03:13:49.543Z",
+        "updated_at": "2023-09-20T18:20:38.754Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "finance": [
+      {
+        "id": "3e7c049b-72d3-48d5-9b1b-b87968c47dc7",
+        "budget": 37398,
+        "expenses": 68269,
+        "income": 59103,
+        "balance": 18111,
+        "created_at": "2023-09-21T13:34:07.567Z",
+        "updated_at": "2023-09-20T22:01:52.151Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4d3dc89f-c4a5-48c1-b8eb-4f2ea8a51cee",
+        "budget": 36211,
+        "expenses": 17822,
+        "income": 47930,
+        "balance": 31708,
+        "created_at": "2023-09-20T23:42:31.788Z",
+        "updated_at": "2023-09-20T19:56:08.073Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2ca43f95-89da-47d0-b7c2-d54dcf766492",
+        "budget": 3254,
+        "expenses": 67278,
+        "income": 35693,
+        "balance": 73596,
+        "created_at": "2023-09-20T18:00:34.826Z",
+        "updated_at": "2023-09-21T03:35:34.163Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "60420677-8cdd-4017-89b5-5abd8626dd4b",
+        "budget": 26216,
+        "expenses": 34097,
+        "income": 94493,
+        "balance": 90914,
+        "created_at": "2023-09-21T11:18:20.840Z",
+        "updated_at": "2023-09-21T16:14:04.501Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "02319426-0515-4bad-87fd-17c6448fdee3",
+        "budget": 77278,
+        "expenses": 78086,
+        "income": 12268,
+        "balance": 18104,
+        "created_at": "2023-09-20T21:58:40.297Z",
+        "updated_at": "2023-09-20T19:37:48.762Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "682831e2-958c-40f5-a23f-b8fa267ceb06",
+        "email": "Bella.Nolan-Kohler@roq.tech",
+        "firstName": "Sigrid",
+        "lastName": "Quitzon",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/172.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6d5bd709-7927-4c92-8aaa-3364cc28ba8c",
+        "email": "Allen_Jaskolski62@roq.tech",
+        "firstName": "Owen",
+        "lastName": "Rosenbaum",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10841483",
+        "tenantId": null
+      },
+      {
+        "reference": "9c947754-8377-4151-8acb-5772a2ade814",
+        "email": "Deron.Smitham@roq.tech",
+        "firstName": "Lenna",
+        "lastName": "Walker",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29070960",
+        "tenantId": null
+      },
+      {
+        "reference": "95045906-8a42-41d1-bd2e-224173346780",
+        "email": "Santino.Weber@roq.tech",
+        "firstName": "Garnett",
+        "lastName": "D'Amore",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/750.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "84f06682-3849-4f76-bb46-74b9db3fc1b4",
+        "email": "Hazel_Corkery@roq.tech",
+        "firstName": "Ella",
+        "lastName": "Von",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69967276",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "payment": [
+      {
+        "id": "aef33d25-61a6-4b46-a399-044588db8539",
+        "amount": 96622,
+        "payment_date": "2023-09-21T05:14:19.531Z",
+        "payment_method": "Credit Card",
+        "created_at": "2023-09-21T11:01:35.783Z",
+        "updated_at": "2023-09-21T02:04:55.033Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "08c147f2-1d5f-4773-a059-c9fcc47d9513",
+        "amount": 82892,
+        "payment_date": "2023-09-20T16:58:06.486Z",
+        "payment_method": "PayPal",
+        "created_at": "2023-09-20T18:16:46.216Z",
+        "updated_at": "2023-09-20T16:27:52.537Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d2f88340-b6c1-4dd6-b33b-8862623f4a13",
+        "amount": 97937,
+        "payment_date": "2023-09-20T20:33:16.075Z",
+        "payment_method": "Bank Transfer",
+        "created_at": "2023-09-21T01:37:22.697Z",
+        "updated_at": "2023-09-20T18:42:17.203Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "259d5cbb-5be0-4b86-9c6b-c6454c27a2e6",
+        "amount": 39911,
+        "payment_date": "2023-09-20T23:06:33.476Z",
+        "payment_method": "Google Pay",
+        "created_at": "2023-09-21T08:59:09.408Z",
+        "updated_at": "2023-09-20T19:14:56.790Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b0c56aad-3478-4794-8611-27d07f03dd6e",
+        "amount": 78842,
+        "payment_date": "2023-09-21T05:59:20.818Z",
+        "payment_method": "Apple Pay",
+        "created_at": "2023-09-21T06:45:33.486Z",
+        "updated_at": "2023-09-20T21:03:48.695Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ngo": [
+      {
+        "id": "3f33e8d4-94d0-4742-8372-8025d1df27e9",
+        "name": "Charity Foundation",
+        "description": "A non-profit organization dedicated to helping those in need.",
+        "address": "123 Main Street",
+        "phone_number": "123-456-7890",
+        "email": "info@charityfoundation.org",
+        "created_at": "2023-09-21T13:36:19.743Z",
+        "updated_at": "2023-09-21T15:58:35.456Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8e637e63-ca1e-4d97-a577-e5c041c888c2",
+        "name": "Helping Hands",
+        "description": "Working towards a better future for all.",
+        "address": "456 Elm Avenue",
+        "phone_number": "987-654-3210",
+        "email": "contact@helpinghands.org",
+        "created_at": "2023-09-20T20:05:22.899Z",
+        "updated_at": "2023-09-20T16:44:50.027Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "801fc7c5-952c-4529-b031-08a9493e10c1",
+        "name": "Hope for All",
+        "description": "Providing assistance and support to vulnerable communities.",
+        "address": "789 Oak Lane",
+        "phone_number": "555-123-4567",
+        "email": "support@hopeforall.org",
+        "created_at": "2023-09-21T00:12:49.979Z",
+        "updated_at": "2023-09-21T07:25:28.790Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e9955a85-2354-4ee1-969a-3dc43569da50",
+        "name": "Supporting Lives",
+        "description": "Promoting social justice and equality.",
+        "address": "321 Pine Road",
+        "phone_number": "888-999-0000",
+        "email": "info@supportinglives.org",
+        "created_at": "2023-09-21T11:16:33.584Z",
+        "updated_at": "2023-09-21T01:13:41.108Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cc6a350f-ce1f-4abd-b307-a8493d2d42de",
+        "name": "Empowerment Organization",
+        "description": "Advocating for positive change in society.",
+        "address": "654 Maple Drive",
+        "phone_number": "444-555-6666",
+        "email": "contact@empowerment.org",
+        "created_at": "2023-09-21T14:02:45.752Z",
+        "updated_at": "2023-09-20T17:56:30.216Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "membership": [
+      {
+        "id": "2d1d149d-c2a0-4488-8541-30370ce76192",
+        "membership_type": "Basic",
+        "start_date": "2023-09-21T02:52:36.048Z",
+        "end_date": "2023-09-21T02:40:56.792Z",
+        "created_at": "2023-09-21T11:00:30.104Z",
+        "updated_at": "2023-09-21T00:37:26.002Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e6fba0aa-50a8-413c-ab71-8519dfa48096",
+        "membership_type": "Silver",
+        "start_date": "2023-09-21T15:32:12.931Z",
+        "end_date": "2023-09-21T08:31:24.176Z",
+        "created_at": "2023-09-21T13:02:20.020Z",
+        "updated_at": "2023-09-21T07:38:33.664Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1a3b0751-0257-4321-9419-a1da3195da7f",
+        "membership_type": "Gold",
+        "start_date": "2023-09-20T16:53:44.161Z",
+        "end_date": "2023-09-21T05:24:22.483Z",
+        "created_at": "2023-09-20T20:19:08.481Z",
+        "updated_at": "2023-09-21T14:15:25.261Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1aeac5b0-8cc1-4b87-8812-d6a51ca6b498",
+        "membership_type": "Platinum",
+        "start_date": "2023-09-21T09:59:31.430Z",
+        "end_date": "2023-09-21T11:45:41.112Z",
+        "created_at": "2023-09-21T10:38:23.933Z",
+        "updated_at": "2023-09-21T13:01:23.539Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "41a28f75-8b15-41aa-b264-8e45134319af",
+        "membership_type": "VIP",
+        "start_date": "2023-09-20T22:09:24.101Z",
+        "end_date": "2023-09-21T03:51:38.846Z",
+        "created_at": "2023-09-21T12:22:59.627Z",
+        "updated_at": "2023-09-21T00:30:37.255Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "finance": [
+      {
+        "id": "da6299fa-eedf-40bd-9cb2-b2fc24582675",
+        "budget": 26745,
+        "expenses": 19228,
+        "income": 72148,
+        "balance": 28296,
+        "created_at": "2023-09-21T12:05:58.656Z",
+        "updated_at": "2023-09-20T18:38:11.369Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6e11318a-efe1-40c9-b316-4bba1aa923a2",
+        "budget": 79318,
+        "expenses": 16273,
+        "income": 81644,
+        "balance": 10734,
+        "created_at": "2023-09-21T08:33:30.110Z",
+        "updated_at": "2023-09-21T07:13:57.995Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a857f507-0223-4670-a39f-10cd5c73222f",
+        "budget": 3518,
+        "expenses": 4045,
+        "income": 68357,
+        "balance": 59671,
+        "created_at": "2023-09-21T12:25:55.848Z",
+        "updated_at": "2023-09-21T12:33:34.711Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "81940392-575e-42ea-80ba-be045a7016f7",
+        "budget": 78565,
+        "expenses": 59024,
+        "income": 73388,
+        "balance": 21491,
+        "created_at": "2023-09-21T06:55:30.578Z",
+        "updated_at": "2023-09-21T04:39:17.581Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "389b0ea0-29ca-4df7-aef4-e6ca3fb5a99e",
+        "budget": 3132,
+        "expenses": 58959,
+        "income": 23688,
+        "balance": 14894,
+        "created_at": "2023-09-21T04:47:17.400Z",
+        "updated_at": "2023-09-21T01:47:26.111Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0149a9c2-0780-4a0d-be23-be9783b5fcc3",
+        "email": "Randy_Schamberger63@roq.tech",
+        "firstName": "Lavern",
+        "lastName": "Grant",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/671501",
+        "tenantId": null
+      },
+      {
+        "reference": "77bc4006-75a0-4a7f-bbf8-b34161839dc9",
+        "email": "Chesley_Nicolas-Towne@roq.tech",
+        "firstName": "Felix",
+        "lastName": "Gerhold",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/97848208",
+        "tenantId": null
+      },
+      {
+        "reference": "d85380e5-cfa9-48fd-92c6-4eb8a0997225",
+        "email": "Maximilian34@roq.tech",
+        "firstName": "Modesta",
+        "lastName": "Mayert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/384.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9f523203-638f-4164-b47e-c5622ee121ee",
+        "email": "Daron.Lockman@roq.tech",
+        "firstName": "Emerson",
+        "lastName": "Zieme",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/288.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "60b8309b-5d80-410b-9b99-a6c518123787",
+        "email": "Lauryn40@roq.tech",
+        "firstName": "Omari",
+        "lastName": "Koch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/423.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "payment": [
+      {
+        "id": "549b35ff-67df-4a40-8a19-8b1a3de55209",
+        "amount": 15618,
+        "payment_date": "2023-09-21T09:33:38.493Z",
+        "payment_method": "Credit Card",
+        "created_at": "2023-09-21T09:58:31.527Z",
+        "updated_at": "2023-09-21T12:20:43.760Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "24c6f7a1-ef2d-4113-8ee5-7ef6e71a8dd5",
+        "amount": 57342,
+        "payment_date": "2023-09-21T15:12:46.516Z",
+        "payment_method": "PayPal",
+        "created_at": "2023-09-20T16:38:50.413Z",
+        "updated_at": "2023-09-20T17:13:34.033Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "53bfe8db-c24a-427a-8ac1-fcf66fe109ce",
+        "amount": 40085,
+        "payment_date": "2023-09-21T06:21:00.661Z",
+        "payment_method": "Bank Transfer",
+        "created_at": "2023-09-21T08:57:58.049Z",
+        "updated_at": "2023-09-21T01:49:55.020Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d6df549f-76fd-4599-b014-83e6b4f33fd5",
+        "amount": 56255,
+        "payment_date": "2023-09-21T02:21:01.394Z",
+        "payment_method": "Apple Pay",
+        "created_at": "2023-09-21T06:21:07.678Z",
+        "updated_at": "2023-09-20T18:15:29.254Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "36719c2b-64e3-44dd-aeca-1b883e7a0944",
+        "amount": 10065,
+        "payment_date": "2023-09-20T19:40:45.820Z",
+        "payment_method": "Google Pay",
+        "created_at": "2023-09-21T11:57:34.205Z",
+        "updated_at": "2023-09-21T05:51:36.118Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ngo": [
+      {
+        "id": "96d349c4-e7e2-4cc1-a4d4-343e28fb92e0",
+        "name": "Green Earth Foundation",
+        "description": "A non-profit organization dedicated to environmental conservation.",
+        "address": "123 Main Street",
+        "phone_number": "123-456-7890",
+        "email": "info@greenearthfoundation.org",
+        "created_at": "2023-09-21T06:59:15.431Z",
+        "updated_at": "2023-09-21T09:01:11.197Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cb412b1d-1325-4e92-8ee6-230c356eb1ac",
+        "name": "Helping Hands Charity",
+        "description": "Providing assistance to those in need.",
+        "address": "456 Elm Avenue",
+        "phone_number": "987-654-3210",
+        "email": "contact@helpinghandscharity.org",
+        "created_at": "2023-09-21T13:29:26.763Z",
+        "updated_at": "2023-09-20T20:52:38.968Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aa82551a-f481-4329-99ed-16d4591be6b2",
+        "name": "Hope for All",
+        "description": "Working towards a better future for all.",
+        "address": "789 Oak Drive",
+        "phone_number": "555-123-4567",
+        "email": "support@hopeforall.org",
+        "created_at": "2023-09-21T01:53:05.786Z",
+        "updated_at": "2023-09-21T06:03:50.730Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "43682e2c-8028-4e81-a393-a3fd9f2c4c26",
+        "name": "Community Aid Organization",
+        "description": "Supporting local communities through various programs.",
+        "address": "321 Pine Lane",
+        "phone_number": "888-999-0000",
+        "email": "admin@communityaid.org",
+        "created_at": "2023-09-20T20:56:15.933Z",
+        "updated_at": "2023-09-20T18:11:54.279Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e877b03e-7c47-47aa-9c75-67e8d8200f48",
+        "name": "Supportive Hearts",
+        "description": "Promoting kindness and compassion in society.",
+        "address": "654 Maple Court",
+        "phone_number": "444-555-6666",
+        "email": "info@supportivehearts.org",
+        "created_at": "2023-09-20T19:30:35.141Z",
+        "updated_at": "2023-09-21T06:16:06.249Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "membership": [
+      {
+        "id": "fece9152-7329-4b11-bd78-18af94335b59",
+        "membership_type": "Basic",
+        "start_date": "2023-09-21T02:54:29.634Z",
+        "end_date": "2023-09-21T09:35:37.640Z",
+        "created_at": "2023-09-21T00:17:54.060Z",
+        "updated_at": "2023-09-21T00:17:45.802Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9d2a4d1e-ff88-4d83-9a52-5e9ae84af117",
+        "membership_type": "Premium",
+        "start_date": "2023-09-21T11:14:45.554Z",
+        "end_date": "2023-09-20T19:35:08.415Z",
+        "created_at": "2023-09-20T19:17:11.685Z",
+        "updated_at": "2023-09-21T08:09:38.670Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a4d02d2d-393a-42fa-bbaa-616e9568def5",
+        "membership_type": "Gold",
+        "start_date": "2023-09-20T18:22:37.158Z",
+        "end_date": "2023-09-21T05:14:17.884Z",
+        "created_at": "2023-09-21T10:33:02.848Z",
+        "updated_at": "2023-09-21T13:57:01.137Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d08281cd-07f6-4aac-a55b-42af3376c1f7",
+        "membership_type": "Platinum",
+        "start_date": "2023-09-21T08:58:19.120Z",
+        "end_date": "2023-09-20T22:33:58.627Z",
+        "created_at": "2023-09-20T18:22:08.683Z",
+        "updated_at": "2023-09-21T10:50:44.547Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7327a72a-8bf3-4bdc-ad48-934ab73db162",
+        "membership_type": "VIP",
+        "start_date": "2023-09-21T10:51:23.862Z",
+        "end_date": "2023-09-21T11:52:42.966Z",
+        "created_at": "2023-09-21T06:04:40.489Z",
+        "updated_at": "2023-09-21T03:56:08.600Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "finance": [
+      {
+        "id": "674a0a87-3a73-43b9-9c53-e98ffd03a388",
+        "budget": 9980,
+        "expenses": 24055,
+        "income": 78126,
+        "balance": 49636,
+        "created_at": "2023-09-20T21:30:54.199Z",
+        "updated_at": "2023-09-21T12:59:20.155Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ac0694b7-d0c5-47e0-b330-8207ec18bbde",
+        "budget": 12253,
+        "expenses": 42630,
+        "income": 9480,
+        "balance": 65070,
+        "created_at": "2023-09-21T15:36:26.964Z",
+        "updated_at": "2023-09-21T05:23:34.224Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f688f2d7-19df-40d1-be9f-a71eaa3007d0",
+        "budget": 48680,
+        "expenses": 88838,
+        "income": 77365,
+        "balance": 37956,
+        "created_at": "2023-09-20T21:16:29.545Z",
+        "updated_at": "2023-09-21T12:35:09.883Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "47ade999-39ec-47a6-82a9-dd2631fddc08",
+        "budget": 21472,
+        "expenses": 7905,
+        "income": 65580,
+        "balance": 70646,
+        "created_at": "2023-09-21T08:21:45.024Z",
+        "updated_at": "2023-09-20T16:45:41.745Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6417f621-a689-44eb-b031-ed28dec6a0ad",
+        "budget": 47754,
+        "expenses": 20739,
+        "income": 51865,
+        "balance": 23892,
+        "created_at": "2023-09-21T09:04:56.843Z",
+        "updated_at": "2023-09-20T21:40:38.397Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3e4caefc-dded-472c-8e3f-533fda26be89",
+        "email": "Bradford_Jones@roq.tech",
+        "firstName": "Isaac",
+        "lastName": "Hermann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6858793",
+        "tenantId": null
+      },
+      {
+        "reference": "fb3d9462-bed4-42a6-bb6b-727d393d2887",
+        "email": "Caitlyn.Hyatt37@roq.tech",
+        "firstName": "Brown",
+        "lastName": "Satterfield",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36632844",
+        "tenantId": null
+      },
+      {
+        "reference": "e844f0d4-01e0-4fe5-9abf-a6944a41d256",
+        "email": "Braeden.Moen@roq.tech",
+        "firstName": "Ezekiel",
+        "lastName": "Moen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9871836",
+        "tenantId": null
+      },
+      {
+        "reference": "bc72b76e-16cb-457a-ae76-2b6b2e6d0894",
+        "email": "Malvina71@roq.tech",
+        "firstName": "Ola",
+        "lastName": "Runolfsson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/91499956",
+        "tenantId": null
+      },
+      {
+        "reference": "d724820e-94fb-40b4-8525-de71bd001c6b",
+        "email": "Shaina_OHara@roq.tech",
+        "firstName": "Anais",
+        "lastName": "Ernser",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/83295448",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "payment": [
+      {
+        "id": "f72fbaf3-e13d-4626-a621-4fddba0c05e2",
+        "amount": 86003,
+        "payment_date": "2023-09-20T17:52:37.027Z",
+        "payment_method": "Credit Card",
+        "created_at": "2023-09-20T19:52:02.395Z",
+        "updated_at": "2023-09-21T01:20:00.709Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ad575140-bef8-4d47-9ba4-3becceec6dab",
+        "amount": 72238,
+        "payment_date": "2023-09-20T23:14:43.066Z",
+        "payment_method": "PayPal",
+        "created_at": "2023-09-20T21:14:24.056Z",
+        "updated_at": "2023-09-21T05:18:25.431Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f68cbdee-af97-45ec-8b98-1670162e23f6",
+        "amount": 94908,
+        "payment_date": "2023-09-21T15:05:37.415Z",
+        "payment_method": "Bank Transfer",
+        "created_at": "2023-09-20T18:39:07.668Z",
+        "updated_at": "2023-09-21T02:56:20.699Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bc796bb4-513d-4dac-bc54-bad9ad60ecf4",
+        "amount": 2790,
+        "payment_date": "2023-09-21T11:25:54.603Z",
+        "payment_method": "Google Pay",
+        "created_at": "2023-09-20T20:34:21.515Z",
+        "updated_at": "2023-09-21T02:22:33.398Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "04af2846-20a0-4bc4-8fed-f54aa08b2eb4",
+        "amount": 36060,
+        "payment_date": "2023-09-21T07:59:05.396Z",
+        "payment_method": "Apple Pay",
+        "created_at": "2023-09-21T04:37:33.297Z",
+        "updated_at": "2023-09-21T09:12:40.921Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ngo": [
+      {
+        "id": "8ebe908c-e21e-44b2-bf71-e6e1a45d0894",
+        "name": "Charity Organization 1",
+        "description": "Supporting underprivileged children",
+        "address": "123 Main Street",
+        "phone_number": "123-456-7890",
+        "email": "info@charity1.org",
+        "created_at": "2023-09-21T05:01:56.451Z",
+        "updated_at": "2023-09-21T07:41:40.415Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c0f06231-10ab-4b8f-8429-77a354589057",
+        "name": "Charity Organization 2",
+        "description": "Providing clean water to communities",
+        "address": "456 Elm Avenue",
+        "phone_number": "987-654-3210",
+        "email": "contact@charity2.org",
+        "created_at": "2023-09-20T21:22:47.867Z",
+        "updated_at": "2023-09-21T01:28:30.811Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "76ef9a8e-3282-49bf-9d24-89e0d18d1297",
+        "name": "Charity Organization 3",
+        "description": "Promoting environmental conservation",
+        "address": "789 Oak Drive",
+        "phone_number": "456-789-1230",
+        "email": "donations@charity3.org",
+        "created_at": "2023-09-20T19:24:24.091Z",
+        "updated_at": "2023-09-21T15:08:26.978Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ebd99bd4-d7aa-427d-a94b-f00386b84e19",
+        "name": "Charity Organization 4",
+        "description": "Empowering women through education",
+        "address": "321 Pine Lane",
+        "phone_number": "321-654-9870",
+        "email": "support@charity4.org",
+        "created_at": "2023-09-20T23:41:41.618Z",
+        "updated_at": "2023-09-21T16:18:02.406Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e71d7130-2702-492c-87ee-4d87ca1f201a",
+        "name": "Charity Organization 5",
+        "description": "Fighting against poverty",
+        "address": "654 Maple Road",
+        "phone_number": "789-123-4560",
+        "email": "volunteer@charity5.org",
+        "created_at": "2023-09-21T07:31:17.180Z",
+        "updated_at": "2023-09-20T18:33:29.078Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "membership": [
+      {
+        "id": "b030b975-2cae-442f-a04d-b546cb3c1a7b",
+        "membership_type": "Basic",
+        "start_date": "2023-09-21T10:04:28.176Z",
+        "end_date": "2023-09-21T00:41:27.662Z",
+        "created_at": "2023-09-20T18:37:42.935Z",
+        "updated_at": "2023-09-21T11:04:10.510Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4c5b4bcf-3eb8-44f5-ae42-4e294c0bff08",
+        "membership_type": "Premium",
+        "start_date": "2023-09-21T09:05:39.130Z",
+        "end_date": "2023-09-21T07:12:27.655Z",
+        "created_at": "2023-09-21T11:07:04.753Z",
+        "updated_at": "2023-09-21T06:22:47.093Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "088ea999-e5b9-4d91-aec7-577bc6fa7c8f",
+        "membership_type": "Gold",
+        "start_date": "2023-09-21T14:17:54.457Z",
+        "end_date": "2023-09-20T18:08:28.727Z",
+        "created_at": "2023-09-21T03:02:30.341Z",
+        "updated_at": "2023-09-20T23:42:16.108Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a4f1246b-4be7-41b2-a83a-0ff88d4e42ff",
+        "membership_type": "Platinum",
+        "start_date": "2023-09-21T15:03:26.923Z",
+        "end_date": "2023-09-20T23:24:24.951Z",
+        "created_at": "2023-09-21T15:14:34.614Z",
+        "updated_at": "2023-09-21T11:26:28.949Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "40483279-e162-4d10-a4d1-49601bf9436e",
+        "membership_type": "VIP",
+        "start_date": "2023-09-21T06:49:28.106Z",
+        "end_date": "2023-09-21T02:02:19.625Z",
+        "created_at": "2023-09-21T15:02:14.564Z",
+        "updated_at": "2023-09-21T13:44:45.124Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "finance": [
+      {
+        "id": "f98b9643-504c-48d1-8284-45c1d53dd20c",
+        "budget": 77873,
+        "expenses": 51046,
+        "income": 65621,
+        "balance": 85919,
+        "created_at": "2023-09-20T23:28:46.213Z",
+        "updated_at": "2023-09-20T23:22:17.347Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "db3fceb2-1901-43d6-b362-4dd2b50561b0",
+        "budget": 15588,
+        "expenses": 92877,
+        "income": 99117,
+        "balance": 68656,
+        "created_at": "2023-09-21T15:39:14.727Z",
+        "updated_at": "2023-09-21T15:03:53.634Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1a0fc8f1-cf65-4bab-8e35-fad62bc2d1fd",
+        "budget": 27537,
+        "expenses": 69814,
+        "income": 23333,
+        "balance": 33263,
+        "created_at": "2023-09-21T09:28:18.782Z",
+        "updated_at": "2023-09-21T14:57:33.588Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c8e38a12-8085-4602-b4bc-9c501c3f47f6",
+        "budget": 40902,
+        "expenses": 71102,
+        "income": 44476,
+        "balance": 15003,
+        "created_at": "2023-09-21T12:45:11.346Z",
+        "updated_at": "2023-09-20T18:18:04.936Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1dda55b1-954b-41e2-bedd-54e23b0c8531",
+        "budget": 2483,
+        "expenses": 50209,
+        "income": 11613,
+        "balance": 72297,
+        "created_at": "2023-09-21T08:50:19.304Z",
+        "updated_at": "2023-09-21T14:10:31.384Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "86321935-5f90-4703-811d-305038a6fbb4",
+        "email": "Dalton43@roq.tech",
+        "firstName": "Nova",
+        "lastName": "Mueller",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22536611",
+        "tenantId": null
+      },
+      {
+        "reference": "6430d68e-8c41-404c-ad1a-a0943a280ee8",
+        "email": "Rudolph78@roq.tech",
+        "firstName": "Rafaela",
+        "lastName": "Berge",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60369869",
+        "tenantId": null
+      },
+      {
+        "reference": "0e8d08e0-7f2c-4d9b-9d41-480d7ce4a8c5",
+        "email": "Berenice.Mueller@roq.tech",
+        "firstName": "Paxton",
+        "lastName": "Braun",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/912.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a8eb73b3-ffe9-4f78-a4e3-35c95e20ab08",
+        "email": "Shemar_Jerde36@roq.tech",
+        "firstName": "Hortense",
+        "lastName": "Mante",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98985339",
+        "tenantId": null
+      },
+      {
+        "reference": "049ac35a-da32-4e5d-add7-4af9d0c52860",
+        "email": "Max17@roq.tech",
+        "firstName": "Sarina",
+        "lastName": "Hickle",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/795.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
